@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "cleanwoter",
+  "version": "${version}",
+  "name": "CleanWoter",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/cleanwoter/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "net.dvmn2.cleanwoter.client.CleanWoterDataGenerator"
+    ],
+    "client": [
+      "net.dvmn2.cleanwoter.client.CleanWoterClient"
+    ],
+    "main": [
+      "net.dvmn2.cleanwoter.CleanWoter"
+    ]
+  },
+  "mixins": [
+    "cleanwoter.mixins.json",
+    {
+      "config": "cleanwoter.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
