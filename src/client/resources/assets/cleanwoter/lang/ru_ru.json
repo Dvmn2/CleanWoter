@@ -1,0 +1,14 @@
+{
+  "cleanwoter.enabled": "CleanWoter включён.",
+  "cleanwoter.disabled": "CleanWoter выключен. Все подводные эффекты вернулись к ванильным.",
+  "cleanwoter.effect.overlay": "Синий оверлей",
+  "cleanwoter.effect.fog": "Подводный туман",
+  "cleanwoter.effect.fov": "Сужение FOV",
+  "cleanwoter.effect.changed": "Удаление эффекта «%s»: %s",
+  "cleanwoter.state.on": "ВКЛ",
+  "cleanwoter.state.off": "ВЫКЛ",
+  "cleanwoter.status.title": "Состояние CleanWoter:",
+  "cleanwoter.status.mod": "Мод: %s",
+  "cleanwoter.status.effect": "Удаление эффекта «%s»: %s",
+  "cleanwoter.status.failed": "%s: отключено после ошибки (см. лог)"
+}

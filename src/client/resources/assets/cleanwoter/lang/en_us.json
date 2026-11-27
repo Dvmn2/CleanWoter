@@ -1,0 +1,14 @@
+{
+  "cleanwoter.enabled": "CleanWoter enabled.",
+  "cleanwoter.disabled": "CleanWoter disabled. All underwater effects are back to vanilla.",
+  "cleanwoter.effect.overlay": "Blue overlay",
+  "cleanwoter.effect.fog": "Underwater fog",
+  "cleanwoter.effect.fov": "FOV narrowing",
+  "cleanwoter.effect.changed": "%s removal: %s",
+  "cleanwoter.state.on": "ON",
+  "cleanwoter.state.off": "OFF",
+  "cleanwoter.status.title": "CleanWoter status:",
+  "cleanwoter.status.mod": "Mod: %s",
+  "cleanwoter.status.effect": "%s removal: %s",
+  "cleanwoter.status.failed": "%s: turned off after an error (see the log)"
+}

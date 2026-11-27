@@ -3,25 +3,15 @@
   "id": "cleanwoter",
   "version": "${version}",
   "name": "CleanWoter",
-  "description": "",
-  "authors": [],
+  "description": "Removes underwater visual effects: the blue overlay, the fog and the field-of-view narrowing.",
+  "authors": ["DVMN2"],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/cleanwoter/icon.png",
   "environment": "client",
   "entrypoints": {
-    "fabric-datagen": [
-      "net.dvmn2.cleanwoter.client.CleanWoterDataGenerator"
-    ],
-    "client": [
-      "net.dvmn2.cleanwoter.client.CleanWoterClient"
-    ],
-    "main": [
-      "net.dvmn2.cleanwoter.CleanWoter"
-    ]
+    "client": ["net.dvmn2.cleanwoter.client.CleanWoterClient"]
   },
   "mixins": [
-    "cleanwoter.mixins.json",
     {
       "config": "cleanwoter.client.mixins.json",
       "environment": "client"
